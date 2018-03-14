@@ -1,5 +1,5 @@
 # CGObject
-### Represent an object manager entity, all entity inherit from this object.
+#### Represent an object manager entity, all entity inherit from this object.
 
 
 ## Properties
@@ -25,8 +25,8 @@
 
 
 # CGUnit
-### Represent an object manager unit, it inherit from [CGObject](#CGObject)
-### Example : Any NPC, monster, etc.. in the game world
+##### Represent an object manager unit, it inherit from [CGObject](#CGObject)
+##### Example : Any NPC, monster, etc.. in the game world
 
 
 ## Properties
@@ -60,8 +60,8 @@
 
 
 # CGPlayer
-### Represent an object manager player, it inherit from [CGUnit](#CGUnit)
-### Example : Any players in the game world
+#### Represent an object manager player, it inherit from [CGUnit](#CGUnit)
+#### Example : Any players in the game world
 
 
 ## Properties
@@ -73,8 +73,8 @@
 
 
 # CGGameObject
-### Represent an object manager game object, it inherit from [CGObject](#CGObject)
-### Example : Mining node, fishing bobber, boat, campfire...
+#### Represent an object manager game object, it inherit from [CGObject](#CGObject)
+#### Example : Mining node, fishing bobber, boat, campfire...
 
 
 ## Properties
