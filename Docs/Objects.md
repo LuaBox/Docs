@@ -25,8 +25,8 @@
 
 
 # CGUnit
-##### Represent an object manager unit, it inherit from [CGObject](#CGObject)
-##### Example : Any NPC, monster, etc.. in the game world
+#### Represent an object manager unit, it inherit from [CGObject](#CGObject)
+#### Example : Any NPC, monster, etc.. in the game world
 
 
 ## Properties
