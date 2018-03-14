@@ -32,6 +32,7 @@ Example : Any NPC, monster, etc.. in the game world
 ## Properties
 | Name | Type | Description                                                  |
 | ------ | :----------------------------------------------------------- | ------ |
+| self.Auras | table |Return a table of [UnitAuraEntry](UnitAuraEntry.md) for each player buff/debuff|
 | self.DisplayId | number |Get or set the unit display id|
 | self.HasTarget | boolean |Return true if that unit has a target, false otherwise|
 | self.Health | number |Return the unit health|
@@ -55,6 +56,7 @@ Example : Any NPC, monster, etc.. in the game world
 | Name | Description |
 | ------- | :----------------------------------------------------------- |
 | self:GetTarget() |Return the unit's target (return type depend of the target type)|
+| self:HasAuraById(id) |Return true if the unit has the aura with the specified id|
 | self:UpdateDisplayInfo() |Update the unit display (call it after replacing self.DisplayId)|
 
 
