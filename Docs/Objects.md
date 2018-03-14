@@ -71,7 +71,6 @@
 
 
 
-
 # CGGameObject
 #### Represent an object manager game object, it inherit from [CGObject](#CGObject)
 #### Example : Mining node, fishing bobber, boat, campfire...
