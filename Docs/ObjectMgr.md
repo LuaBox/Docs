@@ -12,7 +12,7 @@
 
 | Name                  | Type                              | Description                                                  |
 | --------------------- | :-------------------------------- | ------------------------------------------------------------ |
-| self.ActivePlayer     | [CGLocalPlayer](CGLocalPlayer.md) | Return the active player object, or nil if not ingame        |
+| self.ActivePlayer     | [CGLocalPlayer](Objects.md#CGLocalPlayer) | Return the active player object, or nil if not ingame        |
 | self.ActivePlayerGuid | [SmartGuid](SmartGuid.md)         | Return the active player guid                                |
 | self.GameObjects      | table                             | Return a table with all the [CGGameObject](CGGameObject.md) in the object manager |
 | self.Players      | table                             | Return a table with all the [CGPlayer](CGPlayer.md) in the object manager |
