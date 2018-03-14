@@ -1,5 +1,9 @@
 # ObjectMgr
 
+#### The object manager keep a track of all the objects close to you in the world.
+
+#### Consider taking at look at the [Objects](Objects.md) documentation
+
 
 
 ## Properties
