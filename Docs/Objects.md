@@ -47,12 +47,22 @@ Example : Any NPC, monster, etc.. in the game world
 | self.IsAlive | boolean |Return if the unit is alive|
 | self.IsAttackable | boolean |Return if the unit is attackable|
 | self.IsCasting | boolean |Return if the unit is casting/channeling|
+| self.IsConfused | boolean |Return if the unit is confused|
+| self.IsDisarmed | boolean |Return if the unit is disarmed|
+| self.IsFeigningDeath | boolean |Return if the unit is using feign death|
+| self.IsFleeing | boolean |Return if the unit is fleeing|
+| self.IsLootable | boolean |Return if the unit is lootable|
+| self.IsLooting | boolean |Return if the unit is looting a corpse|
 | self.IsDead | boolean |Return if the unit is dead|
 | self.IsFriendly | boolean |Return if the unit is friendly|
 | self.IsHostile | boolean |Return if the unit is hostile|
 | self.IsInParty | boolean |Return if the unit is in our party|
 | self.IsInRaid | boolean |Return if the unit is in our raid|
 | self.IsMounted | boolean |Return if the unit is using a mount|
+| self.IsPacified | boolean |Return if the unit is pacified|
+| self.IsSilenced | boolean |Return if the unit is silenced|
+| self.IsSkinnable | boolean |Return if the unit is skinnable|
+| self.IsStunned | boolean |Return if the unit is stunned|
 | self.Level | number |Return the level of the unit|
 | self.MountDisplayId | number |Return the display id of the unit's mount|
 | self.NativeDisplayId | number |Return the original display id of the unit|
