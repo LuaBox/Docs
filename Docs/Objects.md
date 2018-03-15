@@ -34,6 +34,8 @@ Example : Any NPC, monster, etc.. in the game world
 | ------ | :----------------------------------------------------------- | ------ |
 | self.Auras | table |Return a table of [UnitAuraEntry](UnitAuraEntry.md) for each player buff/debuff|
 | self.BoundingRadius | number |Return the bounding radius of the unit|
+| self.CastingSpellId | number |Return unit's casting/channeling spell id|
+| self.CastingTimeLeft | number |Return unit's casting/channeling time left in seconds|
 | self.CombatReach | number |Return the combat reach range of the unit|
 | self.CharmedByGuid | [SmartGuid](SmartGuid.md) |Return the guid of the unit that charmed this unit|
 | self.CreatedByGuid | [SmartGuid](SmartGuid.md) |Return the guid of the unit that created this unit|
@@ -44,6 +46,7 @@ Example : Any NPC, monster, etc.. in the game world
 | self.HealthPercent | number |Return the unit health in percent|
 | self.IsAlive | boolean |Return if the unit is alive|
 | self.IsAttackable | boolean |Return if the unit is attackable|
+| self.IsCasting | boolean |Return if the unit is casting/channeling|
 | self.IsDead | boolean |Return if the unit is dead|
 | self.IsFriendly | boolean |Return if the unit is friendly|
 | self.IsHostile | boolean |Return if the unit is hostile|
