@@ -82,6 +82,18 @@ Example : Any players in the game world
 
 
 
+# CGLocalPlayer
+Represent your local player object, it inherit from [CGPlayer](#CGPlayer)
+This is only valid for your own player.
+
+
+## Methods
+| Name | Description |
+| ------- | :----------------------------------------------------------- |
+| self:ClickToMove(position) |Move the player using Click to Move to the selected destination (no path finding)|
+
+
+
 # CGGameObject
 Represent an object manager game object, it inherit from [CGObject](#CGObject)
 Example : Mining node, fishing bobber, boat, campfire...
